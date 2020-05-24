@@ -1,5 +1,6 @@
 package com.kang;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WebSocketApplication {
 
 	public static void main(String[] args) {
-		System.out.println("hello test"); 
+		System.err.println("hello test"); 
+		System.err.println("hello hello");
 		SpringApplication.run(WebSocketApplication.class, args);
 	}
 }
